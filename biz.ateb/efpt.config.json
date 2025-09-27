@@ -1,0 +1,446 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "controlvolContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "MinimumProductVersion": "2.6.0",
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Entities",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "biz.ateb",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 2,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Acciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Bitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_Caracter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_ClaveInstalacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_ClaveProductos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_ClaveSubproductos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_EstadoTanque]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_ModalidadPermiso]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_Tipo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_TipoDeRegistro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_TipoEvento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_TipoImpExp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CaracterPermisos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CaracterPermisosAdjuntos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CertificadosProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[compAlm_Certificado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[compAlm_CFDINacional]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[compAlm_CFDINacionalDocumentos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[compAlm_Dictamen]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[compAlm_ProveedorNacionalDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[compAlm_ProveedorNacionalMensual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[compAlm_TransporteDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[compAlm_TransporteMensual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Complemento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ControlExistenciasAcumOpsEntregaDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ControlExistenciasAcumOpsRecepcionDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ControlExistenciasAnteriorDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ControlExistenciasDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ControlExistenciasMensual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DictamenDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dictamenes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Diesel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dispensarios]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DispensariosMangueras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Documento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoAutomaticoMensual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoBitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoDiarioDispenEntrega]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoDiarioDispenEntregas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoDiarioMangueras]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoDiarioMedicionDispensario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoDiarioMedicionDucto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoDiesel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoDispensario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoDucto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoEstatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoExistencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoGasLP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoGasNatural]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoGasolina]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoGenerado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoGeolocalizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoMedicionTanque]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoProveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoTanque]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentoTanqueExistencia]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Ducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Empresa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaCfgNotificaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaImpExp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaPlanta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpresaProveedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntregaDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntregasDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EntregasMensuales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GasLP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GasNatural]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Gasolina]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HistoryPass]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LogMovimientos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Manuales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MedicionDispensario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MedicionDucto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MedicionTanque]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[mitablanueva]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PerfilAccion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PerfilEmpresa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Perfiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PeticionPassword]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Planta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlantaGeolocalizacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlantaProducto]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Productos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Proveedores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RecepcionDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RecepcionesDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RecepcionesMensuales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[t_clavePermisos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[t_claveUnidadMedida]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tanques]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TipoDocumento]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TipoImportacioDiario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TipoImportacionMensual]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tipoNotificacion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TipoProveedor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Usuario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsuarioPlanta]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VersionControlVolumetrico]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}

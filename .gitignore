@@ -1,0 +1,106 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Database
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Publish
+publish/
+
+# Secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Others
+*.vspscc
+*.vssscc
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+
+# Others
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Local tools
+.localtoolst
+
+# Windows image file caches
+*.jfif
+*.jfi
+*.jif
+*.jpe
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.tiff
+*.tif
+*.ico
+
+# Backup & temp files
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Localdb
+*.v12.suo
+*.dbmdl
+
+# Azure
+.publishsettings
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# SonarQube
+.sonar/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# npm
+node_modules/
+
+# Environment
+.env
+.env.*
