@@ -81,6 +81,8 @@ public partial class Plantum
 
     public virtual ICollection<Documento> Documentos { get; set; } = new List<Documento>();
 
+    public virtual ICollection<EmpresaPlantum> EmpresaPlanta { get; set; } = new List<EmpresaPlantum>();
+
     public virtual ICollection<EmpresaProducto> EmpresaProductos { get; set; } = new List<EmpresaProducto>();
 
     public virtual ICollection<EntregaDiario> EntregaDiarios { get; set; } = new List<EntregaDiario>();
@@ -104,6 +106,4 @@ public partial class Plantum
     public virtual ICollection<RecepcionesMensuale> RecepcionesMensuales { get; set; } = new List<RecepcionesMensuale>();
 
     public virtual ICollection<Tanque> Tanques { get; set; } = new List<Tanque>();
-
-    public virtual ICollection<Empresa> Empresas { get; set; } = new List<Empresa>();
 }

@@ -1,16 +1,21 @@
 using api.main.tecnicah.Mapper;
 using AutoMapper;
-using biz.ateb.Repository.Usuarios;
 using biz.ateb.Repository.Authentication;
+using biz.ateb.Repository.Empresa;
+using biz.ateb.Repository.Planta;
+using biz.ateb.Repository.Usuarios;
 using dal.ateb.DBContext;
-using dal.flexform.rarp.Repository.Usuarios;
 using dal.ateb.Repository.Authentication;
+using dal.ateb.Repository.Empresas;
+using dal.ateb.Repository.EmpresasPlantasRepository;
+using dal.ateb.Repository.Plantas;
+using dal.flexform.rarp.Repository.Usuarios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -84,6 +89,10 @@ builder.Services.AddAuthentication(options =>
 #region REPOSITORIES
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddTransient<IAuthenticationRepository, AuthenticationRepository>();
+builder.Services.AddTransient<IEmpresaRepository, EmpresasRepository>();
+builder.Services.AddTransient<IEmpresaPlantaRepository, EmpresasPlantasRepository>();
+builder.Services.AddTransient<IPlantaRepository, PlantasRepository>();
+
 #endregion
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>

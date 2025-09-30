@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using biz.ateb.Entities;
+
 namespace dal.ateb.DBContext;
 
 public partial class controlvolContext : DbContext
@@ -134,6 +135,8 @@ public partial class controlvolContext : DbContext
     public virtual DbSet<EmpresaCfgNotificacione> EmpresaCfgNotificaciones { get; set; }
 
     public virtual DbSet<EmpresaImpExp> EmpresaImpExps { get; set; }
+
+    public virtual DbSet<EmpresaPlantum> EmpresaPlanta { get; set; }
 
     public virtual DbSet<EmpresaProducto> EmpresaProductos { get; set; }
 
@@ -406,7 +409,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<CTipoDeRegistro>(entity =>
         {
             entity.HasKey(e => new { e.Id, e.TipoRegistro })
-                .HasName("PK__c_TipoDe__04F2582EE11A4ED6")
+                .HasName("PK__c_TipoDe__04F2582EAB3898CB")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.ToTable("c_TipoDeRegistro");
@@ -471,7 +474,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<CaracterPermiso>(entity =>
         {
             entity.HasKey(e => new { e.EmpresaId, e.PlantaId, e.NumPermiso })
-                .HasName("PK__Caracter__D56C6E76F00142D3")
+                .HasName("PK__Caracter__D56C6E762BF1C6CE")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.Property(e => e.EmpresaId)
@@ -491,7 +494,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<CaracterPermisosAdjunto>(entity =>
         {
             entity.HasKey(e => new { e.Id, e.NumPermiso })
-                .HasName("PK__Caracter__C84BC8211A317590")
+                .HasName("PK__Caracter__C84BC82159D4CFF4")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.Property(e => e.Id).HasColumnName("id");
@@ -1122,7 +1125,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<DictamenDiario>(entity =>
         {
             entity.HasKey(e => new { e.EmpresaId, e.PlantaId, e.NumeroFolioDictamen })
-                .HasName("PK__Dictamen__54310A6C6AF5EBCA")
+                .HasName("PK__Dictamen__54310A6C987AC725")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.ToTable("DictamenDiario");
@@ -1550,7 +1553,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<DocumentoDiarioDispenEntrega1>(entity =>
         {
             entity.HasKey(e => new { e.EmpresaId, e.PlantaId, e.NoDocumento, e.Periodo, e.Consecutivo, e.IdentificadorManguera })
-                .HasName("PK__Document__5AFA8D188D94EEEB")
+                .HasName("PK__Document__5AFA8D184D3E1AB1")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.ToTable("DocumentoDiarioDispenEntregas");
@@ -2354,33 +2357,6 @@ public partial class controlvolContext : DbContext
                 .HasForeignKey(d => d.VersionCtrVol)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Empresa_VersionControlVolumetrico");
-
-            entity.HasMany(d => d.Planta).WithMany(p => p.Empresas)
-                .UsingEntity<Dictionary<string, object>>(
-                    "EmpresaPlantum",
-                    r => r.HasOne<Plantum>().WithMany()
-                        .HasForeignKey("PlantaId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_EmpresaPlanta_Planta"),
-                    l => l.HasOne<Empresa>().WithMany()
-                        .HasForeignKey("EmpresaId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_EmpresaPlanta_Empresa"),
-                    j =>
-                    {
-                        j.HasKey("EmpresaId", "PlantaId")
-                            .HasName("PK__EmpresaP__C0E670791E0D6561")
-                            .HasAnnotation("SqlServer:FillFactor", 100);
-                        j.ToTable("EmpresaPlanta");
-                        j.IndexerProperty<string>("EmpresaId")
-                            .HasMaxLength(10)
-                            .IsUnicode(false)
-                            .HasColumnName("empresaId");
-                        j.IndexerProperty<string>("PlantaId")
-                            .HasMaxLength(10)
-                            .IsUnicode(false)
-                            .HasColumnName("plantaId");
-                    });
         });
 
         modelBuilder.Entity<EmpresaCfgNotificacione>(entity =>
@@ -2440,6 +2416,36 @@ public partial class controlvolContext : DbContext
                 .HasForeignKey(d => d.TipoDocumento)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_EmpresaImpExp_c_TipoImpExp");
+        });
+
+        modelBuilder.Entity<EmpresaPlantum>(entity =>
+        {
+            entity.HasKey(e => new { e.EmpresaId, e.PlantaId })
+                .HasName("PK__EmpresaP__C0E670791E0D6561")
+                .HasAnnotation("SqlServer:FillFactor", 100);
+
+            entity.Property(e => e.EmpresaId)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .HasColumnName("empresaId");
+            entity.Property(e => e.PlantaId)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .HasColumnName("plantaId");
+            entity.Property(e => e.Id)
+                .HasMaxLength(10)
+                .IsFixedLength()
+                .HasColumnName("id");
+
+            entity.HasOne(d => d.Empresa).WithMany(p => p.EmpresaPlanta)
+                .HasForeignKey(d => d.EmpresaId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_EmpresaPlanta_Empresa");
+
+            entity.HasOne(d => d.Planta).WithMany(p => p.EmpresaPlanta)
+                .HasForeignKey(d => d.PlantaId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_EmpresaPlanta_Planta");
         });
 
         modelBuilder.Entity<EmpresaProducto>(entity =>
@@ -3396,7 +3402,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<TipoDocumento>(entity =>
         {
             entity.HasKey(e => e.TipoDocumento1)
-                .HasName("PK__TipoDocu__8F9AD517E0E16379")
+                .HasName("PK__TipoDocu__8F9AD5174BDD5268")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.ToTable("TipoDocumento");

@@ -65,6 +65,8 @@ public partial class Empresa
 
     public virtual ICollection<EmpresaImpExp> EmpresaImpExps { get; set; } = new List<EmpresaImpExp>();
 
+    public virtual ICollection<EmpresaPlantum> EmpresaPlanta { get; set; } = new List<EmpresaPlantum>();
+
     public virtual ICollection<EmpresaProveedor> EmpresaProveedors { get; set; } = new List<EmpresaProveedor>();
 
     public virtual ICollection<EntregaDiario> EntregaDiarios { get; set; } = new List<EntregaDiario>();
@@ -78,6 +80,4 @@ public partial class Empresa
     public virtual ICollection<RecepcionesMensuale> RecepcionesMensuales { get; set; } = new List<RecepcionesMensuale>();
 
     public virtual VersionControlVolumetrico VersionCtrVolNavigation { get; set; }
-
-    public virtual ICollection<Plantum> Planta { get; set; } = new List<Plantum>();
 }
