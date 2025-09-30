@@ -3,12 +3,15 @@ using AutoMapper;
 using biz.ateb.Repository.Authentication;
 using biz.ateb.Repository.Empresa;
 using biz.ateb.Repository.Planta;
+using biz.ateb.Repository.Proveedor;
 using biz.ateb.Repository.Usuarios;
 using dal.ateb.DBContext;
 using dal.ateb.Repository.Authentication;
 using dal.ateb.Repository.Empresas;
 using dal.ateb.Repository.EmpresasPlantasRepository;
+using dal.ateb.Repository.EmpresasProveedoresRepository;
 using dal.ateb.Repository.Plantas;
+using dal.ateb.Repository.Proveedores;
 using dal.flexform.rarp.Repository.Usuarios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
@@ -92,6 +95,8 @@ builder.Services.AddTransient<IAuthenticationRepository, AuthenticationRepositor
 builder.Services.AddTransient<IEmpresaRepository, EmpresasRepository>();
 builder.Services.AddTransient<IEmpresaPlantaRepository, EmpresasPlantasRepository>();
 builder.Services.AddTransient<IPlantaRepository, PlantasRepository>();
+builder.Services.AddTransient<IProveedorRepository, ProveedoresRepository>();
+builder.Services.AddTransient<IEmpresaProveedorRepository, EmpresasProveedoresRepository>();
 
 #endregion
 

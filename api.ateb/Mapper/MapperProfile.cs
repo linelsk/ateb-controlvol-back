@@ -1,5 +1,6 @@
 ﻿using api.ateb.Models.Empresas;
 using api.ateb.Models.Plantas;
+using api.ateb.Models.Proveedores;
 using api.ateb.Models.Usuarios;
 using api.flexiform.rarp.Models.Usuarios;
 using AutoMapper;
@@ -27,6 +28,8 @@ namespace api.main.tecnicah.Mapper
             CreateMap<Empresa, ListaEmpresasDto>().ReverseMap();
             CreateMap<Plantum, ListaPlantaDto>().ReverseMap();
             CreateMap<CrearEmpresaPlantaDto, EmpresaPlantum>().ReverseMap();
+            CreateMap<ListaProveedoresDto, Proveedore>().ReverseMap();
+            CreateMap<CrearEmpresaProveedorDto, EmpresaProveedor>().ReverseMap();
             #endregion
         }
     }
