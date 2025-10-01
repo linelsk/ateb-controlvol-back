@@ -2,7 +2,7 @@
 using biz.ateb.Repository.Proveedor;
 using biz.ateb.Repository.Generic;
 using dal.ateb.DBContext;
-using dal.ateb.Repository.EmpresasPlantasRepository;
+using dal.ateb.Repository.EmpresasPlantas;
 using dal.ateb.Repository.Generic;
 using System;
 using System.Collections.Generic;

@@ -1,4 +1,6 @@
-﻿using api.ateb.Models.Empresas;
+﻿using api.ateb.Models.Acciones;
+using api.ateb.Models.Empresas;
+using api.ateb.Models.Perfiles;
 using api.ateb.Models.Plantas;
 using api.ateb.Models.Proveedores;
 using api.ateb.Models.Usuarios;
@@ -25,11 +27,20 @@ namespace api.main.tecnicah.Mapper
             CreateMap<HistoryPass, HistoryPassDto>().ReverseMap();
             CreateMap<Perfile, PerfileDto>().ReverseMap();
             CreateMap<CrearUsuarioDto, Usuario>().ReverseMap();
+
             CreateMap<Empresa, ListaEmpresasDto>().ReverseMap();
             CreateMap<Plantum, ListaPlantaDto>().ReverseMap();
             CreateMap<CrearEmpresaPlantaDto, EmpresaPlantum>().ReverseMap();
             CreateMap<ListaProveedoresDto, Proveedore>().ReverseMap();
             CreateMap<CrearEmpresaProveedorDto, EmpresaProveedor>().ReverseMap();
+            CreateMap<CrearEmpresaDto, Empresa>().ReverseMap();
+
+            CreateMap<ListaPerfilesDto, Perfile>().ReverseMap();
+            CreateMap<PerfilEmpresa, CrearPerfilEmpresaDto>().ReverseMap();
+            CreateMap<CrearPerfilDto, Perfile>().ReverseMap();
+            CreateMap<ListaAccionDto, Accione>().ReverseMap();
+            CreateMap<CrearPerfilAccionDto, PerfilAccion>().ReverseMap();
+
             #endregion
         }
     }

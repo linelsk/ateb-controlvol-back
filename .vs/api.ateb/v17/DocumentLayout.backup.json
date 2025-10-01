@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Proyectos ATEB\\NET8\\Back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\acciones\\accionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\acciones\\accionesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\mapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\mapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\acciones\\listaacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\acciones\\listaacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\entities\\accione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\entities\\accione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\acciones\\iaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\acciones\\iaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\proveedores\\proveedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,52 +43,112 @@
       "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\proveedor\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\empresa\\iempresaplantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\empresa\\iempresaplantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\empresa\\iempresaproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\empresa\\iempresaproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\empresas\\empresaproveedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\empresas\\empresaproveedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\empresa\\iempresarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\empresa\\iempresarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\perfilesempresas\\perfilesempresasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\perfilesempresas\\perfilesempresasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\perfiles\\iperfilempresarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\perfiles\\iperfilempresarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\plantas\\plantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\plantas\\plantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\empresaproveedores\\empresasproveedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\empresaproveedores\\empresasproveedoresrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\empresasplantas\\empresasplantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\empresasplantas\\empresasplantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\empresa\\iempresaplantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\empresa\\iempresaplantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\mapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\mapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\proveedores\\listaproveedoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\proveedores\\listaproveedoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\empresas\\empresasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\empresas\\empresasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\entities\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\entities\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\empresasplantas\\empresasplantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\empresasplantas\\empresasplantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\perfiles\\perfilempresadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\perfiles\\perfilempresadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\perfiles\\perfilesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\perfiles\\perfilesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\perfiles\\iperfilrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\perfiles\\iperfilrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\planta\\iplantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\planta\\iplantarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\empresa\\iempresarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\empresa\\iempresarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\perfiles\\crearperfildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\perfiles\\crearperfildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\perfiles\\crearperfilempresadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\perfiles\\crearperfilempresadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\perfiles\\perfilacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\perfiles\\perfilacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\perfiles\\crearperfilaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\perfiles\\crearperfilaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\perfiles\\listaperfilesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\perfiles\\listaperfilesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\empresas\\listaempresasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\empresas\\listaempresasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\empresas\\empresaproveedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\empresas\\empresaproveedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\empresas\\empresaplantadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\empresas\\empresaplantadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\entities\\perfilaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\entities\\perfilaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\entities\\perfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\entities\\perfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\entities\\perfilempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\entities\\perfilempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\proveedores\\listaproveedoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\proveedores\\listaproveedoresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\entities\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\entities\\proveedore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -69,14 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\authentication\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\authentication\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\plantas\\plantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\repository\\plantas\\plantasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\plantas\\listaplantadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,16 +175,8 @@
       "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\dbcontext\\controlvolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|solutionrelative:dal.ateb\\dbcontext\\controlvolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\entities\\empresaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\entities\\empresaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|c:\\proyectos ateb\\net8\\back\\api.ateb\\models\\empresas\\listaempresasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C06894-01C1-4FAF-8399-6EBDA1956A06}|api.ateb\\api.ateb.csproj|solutionrelative:api.ateb\\models\\empresas\\listaempresasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B5744DD-BE66-4275-82E5-27317DB43FCD}|dal.ateb\\dal.ateb.csproj|c:\\proyectos ateb\\net8\\back\\dal.ateb\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,10 +185,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\usuarios\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\usuarios\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\generic\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|solutionrelative:biz.ateb\\repository\\generic\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{032ADA16-0D03-4997-9F2E-2FE9C49A768B}|biz.ateb\\biz.ateb.csproj|c:\\proyectos ateb\\net8\\back\\biz.ateb\\repository\\authentication\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,7 +210,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,20 +218,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmpresasProveedoresRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\EmpresaProveedores\\EmpresasProveedoresRepository.cs",
-              "RelativeDocumentMoniker": "dal.ateb\\Repository\\EmpresaProveedores\\EmpresasProveedoresRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\EmpresaProveedores\\EmpresasProveedoresRepository.cs",
-              "RelativeToolTip": "dal.ateb\\Repository\\EmpresaProveedores\\EmpresasProveedoresRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ListaAccionDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Acciones\\ListaAccionDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Acciones\\ListaAccionDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Acciones\\ListaAccionDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Acciones\\ListaAccionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T16:25:14.109Z",
+              "WhenOpened": "2025-10-01T16:03:09.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Accione.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Accione.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Entities\\Accione.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Accione.cs",
+              "RelativeToolTip": "biz.ateb\\Entities\\Accione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:02:54.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAccionRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Acciones\\IAccionRepository.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Acciones\\IAccionRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Acciones\\IAccionRepository.cs",
+              "RelativeToolTip": "biz.ateb\\Repository\\Acciones\\IAccionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:56:22.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccionesRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Acciones\\AccionesRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Acciones\\AccionesRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Acciones\\AccionesRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\Acciones\\AccionesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:55:09.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PerfilController.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\PerfilController.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Controllers\\PerfilController.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\PerfilController.cs",
+              "RelativeToolTip": "api.ateb\\Controllers\\PerfilController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAmwLsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:40:15.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProveedoresRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Proveedores\\ProveedoresRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Proveedores\\ProveedoresRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Proveedores\\ProveedoresRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\Proveedores\\ProveedoresRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:37:07.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmpresaPlantaRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaPlantaRepository.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Empresa\\IEmpresaPlantaRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaPlantaRepository.cs",
+              "RelativeToolTip": "biz.ateb\\Repository\\Empresa\\IEmpresaPlantaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T22:36:56.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProveedorRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Proveedor\\IProveedorRepository.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Proveedor\\IProveedorRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Proveedor\\IProveedorRepository.cs",
+              "RelativeToolTip": "biz.ateb\\Repository\\Proveedor\\IProveedorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:36:13.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Program.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Program.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Program.cs",
+              "RelativeToolTip": "api.ateb\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:01:02.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Mapper\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Mapper\\MapperProfile.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Mapper\\MapperProfile.cs",
+              "RelativeToolTip": "api.ateb\\Mapper\\MapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:42:54.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpresaController.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\EmpresaController.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Controllers\\EmpresaController.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\EmpresaController.cs",
+              "RelativeToolTip": "api.ateb\\Controllers\\EmpresaController.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAmwFoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:39:52.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IEmpresaProveedorRepository.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaProveedorRepository.cs",
               "RelativeDocumentMoniker": "biz.ateb\\Repository\\Empresa\\IEmpresaProveedorRepository.cs",
@@ -176,150 +374,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ListaProveedoresDto.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Proveedores\\ListaProveedoresDto.cs",
-              "RelativeDocumentMoniker": "api.ateb\\Models\\Proveedores\\ListaProveedoresDto.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Proveedores\\ListaProveedoresDto.cs",
-              "RelativeToolTip": "api.ateb\\Models\\Proveedores\\ListaProveedoresDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:39:56.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProveedoresRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Proveedores\\ProveedoresRepository.cs",
-              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Proveedores\\ProveedoresRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Proveedores\\ProveedoresRepository.cs",
-              "RelativeToolTip": "dal.ateb\\Repository\\Proveedores\\ProveedoresRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:37:07.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProveedorRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Proveedor\\IProveedorRepository.cs",
-              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Proveedor\\IProveedorRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Proveedor\\IProveedorRepository.cs",
-              "RelativeToolTip": "biz.ateb\\Repository\\Proveedor\\IProveedorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:36:13.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MapperProfile.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Mapper\\MapperProfile.cs",
-              "RelativeDocumentMoniker": "api.ateb\\Mapper\\MapperProfile.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Mapper\\MapperProfile.cs",
-              "RelativeToolTip": "api.ateb\\Mapper\\MapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:42:54.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmpresaController.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\EmpresaController.cs",
-              "RelativeDocumentMoniker": "api.ateb\\Controllers\\EmpresaController.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\EmpresaController.cs",
-              "RelativeToolTip": "api.ateb\\Controllers\\EmpresaController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAWwCQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T21:09:03.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Program.cs",
-              "RelativeDocumentMoniker": "api.ateb\\Program.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Program.cs",
-              "RelativeToolTip": "api.ateb\\Program.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAUwGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T21:01:02.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmpresaProveedorDto.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Empresas\\EmpresaProveedorDto.cs",
-              "RelativeDocumentMoniker": "api.ateb\\Models\\Empresas\\EmpresaProveedorDto.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Empresas\\EmpresaProveedorDto.cs",
-              "RelativeToolTip": "api.ateb\\Models\\Empresas\\EmpresaProveedorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T16:28:42.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IEmpresaPlantaRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaPlantaRepository.cs",
-              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Empresa\\IEmpresaPlantaRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaPlantaRepository.cs",
-              "RelativeToolTip": "biz.ateb\\Repository\\Empresa\\IEmpresaPlantaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T22:36:56.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmpresasPlantasRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\EmpresasPlantas\\EmpresasPlantasRepository.cs",
-              "RelativeDocumentMoniker": "dal.ateb\\Repository\\EmpresasPlantas\\EmpresasPlantasRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\EmpresasPlantas\\EmpresasPlantasRepository.cs",
-              "RelativeToolTip": "dal.ateb\\Repository\\EmpresasPlantas\\EmpresasPlantasRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T22:16:58.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Proveedore.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Proveedore.cs",
-              "RelativeDocumentMoniker": "biz.ateb\\Entities\\Proveedore.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Proveedore.cs",
-              "RelativeToolTip": "biz.ateb\\Entities\\Proveedore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABwAAAAAAAAAA==",
+              "Title": "IEmpresaRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaRepository.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Empresa\\IEmpresaRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaRepository.cs",
+              "RelativeToolTip": "biz.ateb\\Repository\\Empresa\\IEmpresaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:39:12.411Z",
+              "WhenOpened": "2025-09-29T21:09:52.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
+              "Title": "PlantasRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Plantas\\PlantasRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Plantas\\PlantasRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Plantas\\PlantasRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\Plantas\\PlantasRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T03:15:28.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PerfilesEmpresasRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\PerfilesEmpresas\\PerfilesEmpresasRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\PerfilesEmpresas\\PerfilesEmpresasRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\PerfilesEmpresas\\PerfilesEmpresasRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\PerfilesEmpresas\\PerfilesEmpresasRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:18:49.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmpresasProveedoresRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\EmpresaProveedores\\EmpresasProveedoresRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\EmpresaProveedores\\EmpresasProveedoresRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\EmpresaProveedores\\EmpresasProveedoresRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\EmpresaProveedores\\EmpresasProveedoresRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T16:25:14.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "EmpresasRepository.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Empresas\\EmpresasRepository.cs",
               "RelativeDocumentMoniker": "dal.ateb\\Repository\\Empresas\\EmpresasRepository.cs",
               "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Empresas\\EmpresasRepository.cs",
               "RelativeToolTip": "dal.ateb\\Repository\\Empresas\\EmpresasRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T21:11:05.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
+              "Title": "IPerfilEmpresaRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Perfiles\\IPerfilEmpresaRepository.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Perfiles\\IPerfilEmpresaRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Perfiles\\IPerfilEmpresaRepository.cs",
+              "RelativeToolTip": "biz.ateb\\Repository\\Perfiles\\IPerfilEmpresaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:53:35.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmpresasPlantasRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\EmpresasPlantas\\EmpresasPlantasRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\EmpresasPlantas\\EmpresasPlantasRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\EmpresasPlantas\\EmpresasPlantasRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\EmpresasPlantas\\EmpresasPlantasRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T22:16:58.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PerfilEmpresaDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\PerfilEmpresaDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Perfiles\\PerfilEmpresaDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\PerfilEmpresaDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Perfiles\\PerfilEmpresaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:36:44.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "IPlantaRepository.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Planta\\IPlantaRepository.cs",
               "RelativeDocumentMoniker": "biz.ateb\\Repository\\Planta\\IPlantaRepository.cs",
@@ -332,137 +491,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "efpt.config.json",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\efpt.config.json",
-              "RelativeDocumentMoniker": "biz.ateb\\efpt.config.json",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\efpt.config.json",
-              "RelativeToolTip": "biz.ateb\\efpt.config.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-30T15:15:29.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "api.ateb\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "api.ateb\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAASwGgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "CrearPerfilDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\CrearPerfilDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Perfiles\\CrearPerfilDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\CrearPerfilDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Perfiles\\CrearPerfilDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T21:08:15.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IEmpresaRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaRepository.cs",
-              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Empresa\\IEmpresaRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Empresa\\IEmpresaRepository.cs",
-              "RelativeToolTip": "biz.ateb\\Repository\\Empresa\\IEmpresaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T21:09:52.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PlantasRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Plantas\\PlantasRepository.cs",
-              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Plantas\\PlantasRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Plantas\\PlantasRepository.cs",
-              "RelativeToolTip": "dal.ateb\\Repository\\Plantas\\PlantasRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T03:15:28.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthenticationRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Authentication\\AuthenticationRepository.cs",
-              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Authentication\\AuthenticationRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Authentication\\AuthenticationRepository.cs",
-              "RelativeToolTip": "dal.ateb\\Repository\\Authentication\\AuthenticationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T22:29:58.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Usuarios\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Usuarios\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Usuarios\\UsuarioRepository.cs",
-              "RelativeToolTip": "dal.ateb\\Repository\\Usuarios\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAjwCIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T22:13:17.442Z",
+              "WhenOpened": "2025-10-01T14:26:44.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Plantum.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Plantum.cs",
-              "RelativeDocumentMoniker": "biz.ateb\\Entities\\Plantum.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Plantum.cs",
-              "RelativeToolTip": "biz.ateb\\Entities\\Plantum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Title": "PerfilesRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Perfiles\\PerfilesRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Perfiles\\PerfilesRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Perfiles\\PerfilesRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\Perfiles\\PerfilesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T03:21:06.352Z",
+              "WhenOpened": "2025-10-01T14:41:10.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ListaPlantaDto.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Plantas\\ListaPlantaDto.cs",
-              "RelativeDocumentMoniker": "api.ateb\\Models\\Plantas\\ListaPlantaDto.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Plantas\\ListaPlantaDto.cs",
-              "RelativeToolTip": "api.ateb\\Models\\Plantas\\ListaPlantaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "IPerfilRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Perfiles\\IPerfilRepository.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Perfiles\\IPerfilRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Perfiles\\IPerfilRepository.cs",
+              "RelativeToolTip": "biz.ateb\\Repository\\Perfiles\\IPerfilRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T03:20:10.782Z",
+              "WhenOpened": "2025-10-01T14:42:06.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "api.ateb\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "api.ateb\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADgvy0AAABOAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "CrearPerfilEmpresaDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\CrearPerfilEmpresaDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Perfiles\\CrearPerfilEmpresaDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\CrearPerfilEmpresaDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Perfiles\\CrearPerfilEmpresaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T21:24:06.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "controlvolContext.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\DBContext\\controlvolContext.cs",
-              "RelativeDocumentMoniker": "dal.ateb\\DBContext\\controlvolContext.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\DBContext\\controlvolContext.cs",
-              "RelativeToolTip": "dal.ateb\\DBContext\\controlvolContext.cs",
-              "ViewState": "AgIAAFsJAAAAAAAAAAAAAHoJAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T22:29:50.417Z",
+              "WhenOpened": "2025-10-01T14:27:20.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "PerfilAccionDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\PerfilAccionDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Perfiles\\PerfilAccionDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\PerfilAccionDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Perfiles\\PerfilAccionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:36:56.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CrearPerfilAccion.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\CrearPerfilAccion.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Perfiles\\CrearPerfilAccion.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\CrearPerfilAccion.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Perfiles\\CrearPerfilAccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:35:32.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ListaPerfilesDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\ListaPerfilesDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Perfiles\\ListaPerfilesDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Perfiles\\ListaPerfilesDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Perfiles\\ListaPerfilesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:36:23.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PerfilAccion.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\PerfilAccion.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Entities\\PerfilAccion.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\PerfilAccion.cs",
+              "RelativeToolTip": "biz.ateb\\Entities\\PerfilAccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:35:10.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Perfile.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Perfile.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Entities\\Perfile.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Perfile.cs",
+              "RelativeToolTip": "biz.ateb\\Entities\\Perfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:26:10.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PerfilEmpresa.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\PerfilEmpresa.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Entities\\PerfilEmpresa.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\PerfilEmpresa.cs",
+              "RelativeToolTip": "biz.ateb\\Entities\\PerfilEmpresa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:27:00.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "ListaEmpresasDto.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Empresas\\ListaEmpresasDto.cs",
               "RelativeDocumentMoniker": "api.ateb\\Models\\Empresas\\ListaEmpresasDto.cs",
@@ -475,7 +634,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
+              "Title": "EmpresaPlantaDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Empresas\\EmpresaPlantaDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Empresas\\EmpresaPlantaDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Empresas\\EmpresaPlantaDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Empresas\\EmpresaPlantaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T17:36:49.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmpresaProveedorDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Empresas\\EmpresaProveedorDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Empresas\\EmpresaProveedorDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Empresas\\EmpresaProveedorDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Empresas\\EmpresaProveedorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T16:28:42.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ListaProveedoresDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Proveedores\\ListaProveedoresDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Proveedores\\ListaProveedoresDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Proveedores\\ListaProveedoresDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Proveedores\\ListaProveedoresDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:39:56.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "api.ateb\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAArwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:08:15.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Proveedore.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Proveedore.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Entities\\Proveedore.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Proveedore.cs",
+              "RelativeToolTip": "biz.ateb\\Entities\\Proveedore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:39:12.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "efpt.config.json",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\efpt.config.json",
+              "RelativeDocumentMoniker": "biz.ateb\\efpt.config.json",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\efpt.config.json",
+              "RelativeToolTip": "biz.ateb\\efpt.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-30T15:15:29.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthenticationRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Authentication\\AuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Authentication\\AuthenticationRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Authentication\\AuthenticationRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\Authentication\\AuthenticationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T22:29:58.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Usuarios\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "dal.ateb\\Repository\\Usuarios\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Usuarios\\UsuarioRepository.cs",
+              "RelativeToolTip": "dal.ateb\\Repository\\Usuarios\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T22:13:17.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Plantum.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Plantum.cs",
+              "RelativeDocumentMoniker": "biz.ateb\\Entities\\Plantum.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\Plantum.cs",
+              "RelativeToolTip": "biz.ateb\\Entities\\Plantum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T03:21:06.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ListaPlantaDto.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Plantas\\ListaPlantaDto.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Models\\Plantas\\ListaPlantaDto.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Plantas\\ListaPlantaDto.cs",
+              "RelativeToolTip": "api.ateb\\Models\\Plantas\\ListaPlantaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T03:20:10.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "api.ateb\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "api.ateb\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADgvy0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T21:24:06.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "EmpresaProducto.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Entities\\EmpresaProducto.cs",
               "RelativeDocumentMoniker": "biz.ateb\\Entities\\EmpresaProducto.cs",
@@ -488,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 44,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\dal.ateb\\Repository\\Generic\\GenericRepository.cs",
               "RelativeDocumentMoniker": "dal.ateb\\Repository\\Generic\\GenericRepository.cs",
@@ -501,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "IAuthenticationRepository.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Authentication\\IAuthenticationRepository.cs",
               "RelativeDocumentMoniker": "biz.ateb\\Repository\\Authentication\\IAuthenticationRepository.cs",
@@ -514,20 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Generic\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "biz.ateb\\Repository\\Generic\\IGenericRepository.cs",
-              "ToolTip": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Generic\\IGenericRepository.cs",
-              "RelativeToolTip": "biz.ateb\\Repository\\Generic\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T21:07:51.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 45,
               "Title": "IUsuarioRepository.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\Repository\\Usuarios\\IUsuarioRepository.cs",
               "RelativeDocumentMoniker": "biz.ateb\\Repository\\Usuarios\\IUsuarioRepository.cs",
@@ -540,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "CrearUsuarioDto.cs",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\Models\\Usuarios\\CrearUsuarioDto.cs",
               "RelativeDocumentMoniker": "api.ateb\\Models\\Usuarios\\CrearUsuarioDto.cs",
@@ -552,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 49,
               "Title": "biz.ateb.csproj",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\biz.ateb\\biz.ateb.csproj",
               "RelativeDocumentMoniker": "biz.ateb\\biz.ateb.csproj",
@@ -564,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Proyectos ATEB\\NET8\\Back\\api.ateb\\appsettings.json",
               "RelativeDocumentMoniker": "api.ateb\\appsettings.json",

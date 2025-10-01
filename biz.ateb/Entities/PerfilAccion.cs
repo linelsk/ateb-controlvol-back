@@ -5,13 +5,15 @@ using System.Collections.Generic;
 
 namespace biz.ateb.Entities;
 
-public partial class Accione
+public partial class PerfilAccion
 {
+    public long PerfilId { get; set; }
+
     public string CodAccion { get; set; }
 
-    public string Seccion { get; set; }
+    public string Id { get; set; }
 
-    public string Descripcion { get; set; }
+    public virtual Accione CodAccionNavigation { get; set; }
 
-    public virtual ICollection<PerfilAccion> PerfilAccions { get; set; } = new List<PerfilAccion>();
+    public virtual Perfile Perfil { get; set; }
 }

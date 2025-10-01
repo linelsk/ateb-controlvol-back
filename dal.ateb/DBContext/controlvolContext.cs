@@ -168,6 +168,8 @@ public partial class controlvolContext : DbContext
 
     public virtual DbSet<Mitablanueva> Mitablanuevas { get; set; }
 
+    public virtual DbSet<PerfilAccion> PerfilAccions { get; set; }
+
     public virtual DbSet<PerfilEmpresa> PerfilEmpresas { get; set; }
 
     public virtual DbSet<Perfile> Perfiles { get; set; }
@@ -2906,6 +2908,31 @@ public partial class controlvolContext : DbContext
             entity.Property(e => e.Id).HasColumnName("id");
         });
 
+        modelBuilder.Entity<PerfilAccion>(entity =>
+        {
+            entity.HasKey(e => new { e.PerfilId, e.CodAccion });
+
+            entity.ToTable("PerfilAccion");
+
+            entity.Property(e => e.CodAccion)
+                .HasMaxLength(5)
+                .IsUnicode(false);
+            entity.Property(e => e.Id)
+                .HasMaxLength(10)
+                .IsFixedLength()
+                .HasColumnName("id");
+
+            entity.HasOne(d => d.CodAccionNavigation).WithMany(p => p.PerfilAccions)
+                .HasForeignKey(d => d.CodAccion)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_PerfilAccion_Acciones");
+
+            entity.HasOne(d => d.Perfil).WithMany(p => p.PerfilAccions)
+                .HasForeignKey(d => d.PerfilId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_PerfilAccion_PerfilAccion");
+        });
+
         modelBuilder.Entity<PerfilEmpresa>(entity =>
         {
             entity.HasKey(e => new { e.PerfilId, e.EmpresaId }).HasName("PK_PerfilEmpresa_1");
@@ -2954,26 +2981,6 @@ public partial class controlvolContext : DbContext
                 .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasColumnName("perfil");
-
-            entity.HasMany(d => d.CodAccions).WithMany(p => p.Perfils)
-                .UsingEntity<Dictionary<string, object>>(
-                    "PerfilAccion",
-                    r => r.HasOne<Accione>().WithMany()
-                        .HasForeignKey("CodAccion")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_PerfilAccion_Acciones"),
-                    l => l.HasOne<Perfile>().WithMany()
-                        .HasForeignKey("PerfilId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_PerfilAccion_PerfilAccion"),
-                    j =>
-                    {
-                        j.HasKey("PerfilId", "CodAccion");
-                        j.ToTable("PerfilAccion");
-                        j.IndexerProperty<string>("CodAccion")
-                            .HasMaxLength(5)
-                            .IsUnicode(false);
-                    });
         });
 
         modelBuilder.Entity<PeticionPassword>(entity =>

@@ -37,6 +37,69 @@ namespace api.ateb.Controllers
              _proveedorRepository = proveedorRepository;
             _empresaProveedorRepository = empresaProveedorRepository;
         }
+        [HttpPost("CrearEmpresa", Name = "CrearEmpresa")]
+        public ActionResult<ApiResponse<CrearEmpresaDto>> CrearEmpresa(CrearEmpresaDto item)
+        {
+            var response = new ApiResponse<CrearEmpresaDto>();
+
+            try
+            {
+                if (_empresaRepository.Exists(x => x.EmpresaId == item.EmpresaId))
+                {
+                    response.Success = false;
+                    response.Message = "Ya existe una empresa con el mismo ID.";
+                    response.Result = null;
+                    return StatusCode(201, response);
+                }
+
+                var empresa = _mapper.Map<Empresa>(item);
+                empresa.VersionCtrVol = "1.0";
+                var clienteCreado = _empresaRepository.Add(empresa);
+                response.Message = "Empresa creado correctamente";
+                response.Result = _mapper.Map<CrearEmpresaDto>(clienteCreado);
+            }
+            catch (Exception ex)
+            {
+                response.Result = null;
+                response.Success = false;
+                response.Message = ex.ToString();
+                return StatusCode(500, response);
+            }
+
+            return StatusCode(201, response);
+        }
+        [HttpPost("ActualizarEmpresa", Name = "ActualizarEmpresa")]
+        public ActionResult<ApiResponse<CrearEmpresaDto>> ActualizarEmpresa(CrearEmpresaDto item)
+        {
+            var response = new ApiResponse<CrearEmpresaDto>();
+
+            try
+            {
+                if (!_empresaRepository.Exists(x => x.EmpresaId == item.EmpresaId))
+                {
+                    response.Success = false;
+                    response.Message = "No existe la empresa que intentas actualizar";
+                    response.Result = null;
+                    return StatusCode(201, response);
+                }
+
+                var empresa = _mapper.Map<Empresa>(item);
+                empresa.VersionCtrVol = "1.0";
+
+                var clienteCreado = _empresaRepository.Update(empresa, empresa.EmpresaId);
+                response.Message = "Empresa actualizada correctamente";
+                response.Result = _mapper.Map<CrearEmpresaDto>(clienteCreado);
+            }
+            catch (Exception ex)
+            {
+                response.Result = null;
+                response.Success = false;
+                response.Message = ex.ToString();
+                return StatusCode(500, response);
+            }
+
+            return StatusCode(201, response);
+        }
 
         [HttpGet("GetAllEmpresas", Name = "GetAllEmpresas")]
         public ActionResult<ApiResponse<List<ListaEmpresasDto>>> GetAllEmpresas()
@@ -57,7 +120,6 @@ namespace api.ateb.Controllers
 
             return Ok(response);
         }
-
 
         [HttpGet("GetEmpresaPlanta", Name = "GetEmpresaPlanta")]
         public ActionResult<ApiResponse<List<EmpresaPlantaDto>>> GetEmpresaPlanta(string empresa)

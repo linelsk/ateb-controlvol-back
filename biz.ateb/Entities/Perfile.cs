@@ -15,9 +15,9 @@ public partial class Perfile
 
     public string Acciones { get; set; }
 
+    public virtual ICollection<PerfilAccion> PerfilAccions { get; set; } = new List<PerfilAccion>();
+
     public virtual ICollection<PerfilEmpresa> PerfilEmpresas { get; set; } = new List<PerfilEmpresa>();
 
     public virtual ICollection<Usuario> Usuarios { get; set; } = new List<Usuario>();
-
-    public virtual ICollection<Accione> CodAccions { get; set; } = new List<Accione>();
 }

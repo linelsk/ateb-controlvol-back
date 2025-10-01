@@ -1,15 +1,23 @@
 using api.main.tecnicah.Mapper;
 using AutoMapper;
+using biz.ateb.Entities;
+using biz.ateb.Repository;
+using biz.ateb.Repository.Acciones;
 using biz.ateb.Repository.Authentication;
 using biz.ateb.Repository.Empresa;
+using biz.ateb.Repository.Perfiles;
 using biz.ateb.Repository.Planta;
 using biz.ateb.Repository.Proveedor;
 using biz.ateb.Repository.Usuarios;
 using dal.ateb.DBContext;
+using dal.ateb.Repository.Acciones;
 using dal.ateb.Repository.Authentication;
 using dal.ateb.Repository.Empresas;
-using dal.ateb.Repository.EmpresasPlantasRepository;
-using dal.ateb.Repository.EmpresasProveedoresRepository;
+using dal.ateb.Repository.EmpresasPlantas;
+using dal.ateb.Repository.EmpresasProveedores;
+using dal.ateb.Repository.Perfiles;
+using dal.ateb.Repository.PerfilesAcciones;
+using dal.ateb.Repository.PerfilesEmpresas;
 using dal.ateb.Repository.Plantas;
 using dal.ateb.Repository.Proveedores;
 using dal.flexform.rarp.Repository.Usuarios;
@@ -98,6 +106,10 @@ builder.Services.AddTransient<IPlantaRepository, PlantasRepository>();
 builder.Services.AddTransient<IProveedorRepository, ProveedoresRepository>();
 builder.Services.AddTransient<IEmpresaProveedorRepository, EmpresasProveedoresRepository>();
 
+builder.Services.AddTransient<IPerfilRepository, PerfilesRepository>();
+builder.Services.AddTransient<IPerfilEmpresaRepository, PerfilesEmpresasRepository>();
+builder.Services.AddTransient<IAccionRepository, AccionesRepository>();
+builder.Services.AddTransient<IPerfilAccionesRepository, PerfilesAccionesRepository>();
 #endregion
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>

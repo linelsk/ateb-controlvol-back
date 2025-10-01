@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Helpers;
 
-namespace dal.ateb.Repository.EmpresasProveedoresRepository
+namespace dal.ateb.Repository.EmpresasProveedores
 {
     public class EmpresasProveedoresRepository : GenericRepository<biz.ateb.Entities.EmpresaProveedor>, IEmpresaProveedorRepository
     {
