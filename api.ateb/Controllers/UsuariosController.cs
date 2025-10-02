@@ -1,16 +1,18 @@
 ﻿using api.ateb.Models.ApiResponse;
+using api.ateb.Models.Perfiles;
 using api.ateb.Models.Usuarios;
 using api.flexiform.rarp.Models.Usuarios;
 using AutoMapper;
 using biz.ateb.Entities;
 using biz.ateb.Repository.Usuarios;
+using biz.ateb.Repository.UsuariosPlantas;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace api.ateb.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase
@@ -18,11 +20,13 @@ namespace api.ateb.Controllers
 
         private readonly IMapper _mapper;
         private readonly IUsuarioRepository _usuarioRepository;
+        private readonly IUsuarioPlantaRepository _usuarioPlantaRepository;
 
-        public UsuariosController(IMapper mapper, IUsuarioRepository usuarioRepository)
+        public UsuariosController(IMapper mapper, IUsuarioRepository usuarioRepository, IUsuarioPlantaRepository usuarioPlantaRepository)
         {
             _mapper = mapper;
             _usuarioRepository = usuarioRepository;
+            _usuarioPlantaRepository = usuarioPlantaRepository;
         }
 
         
@@ -40,7 +44,6 @@ namespace api.ateb.Controllers
             {
                 response.Success = false;
                 response.Message = ex.ToString();
-                //_logger.LogError($"Something went wrong: {ex.ToString()}");
                 return StatusCode(500, response);
             }
 
@@ -62,7 +65,27 @@ namespace api.ateb.Controllers
                 response.Result = null;
                 response.Success = false;
                 response.Message = ex.ToString();
-                //_logger.LogError($"Something went wrong: {ex.ToString()}");
+                return StatusCode(500, response);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpGet("GetUserByID", Name = "GetUserByID")]
+        public ActionResult<ApiResponse<List<GetUsuarioDto>>> GetUserByID(string usuarioID)
+        {
+            var response = new ApiResponse<List<GetUsuarioDto>>();
+
+            try
+            {
+                response.Result = _mapper.Map<List<GetUsuarioDto>>(_usuarioRepository.Find(x => x.UsuarioId == usuarioID));
+                response.Success = true;
+            }
+            catch (Exception ex)
+            {
+                response.Result = null;
+                response.Success = false;
+                response.Message = ex.ToString();
                 return StatusCode(500, response);
             }
 
@@ -143,6 +166,66 @@ namespace api.ateb.Controllers
             catch (Exception ex)
             {
                 response.Result = null;
+                response.Success = false;
+                response.Message = ex.ToString();
+                return StatusCode(500, response);
+            }
+
+            return StatusCode(201, response);
+        }
+
+        [HttpGet("GetPlantasByUsuario", Name = "GetPlantasByUsuario")]
+        public ActionResult<ApiResponse<List<CrearUsuarioPlantaDto>>> GetPlantasByUsuario(string usuarioID)
+        {
+            var response = new ApiResponse<List<CrearUsuarioPlantaDto>>();
+
+            try
+            {
+
+                var data = _usuarioPlantaRepository.GetPlantasByUsuario(usuarioID);
+                response.Result = data.Select(x => new CrearUsuarioPlantaDto
+                {
+                    PlantaDescripcion = x.Planta.DescripcionPlanta,
+                    UsuarioId = x.UsuarioId,
+                    PlantaId = x.PlantaId
+                }).ToList();
+
+                response.Success = true;
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.ToString();
+                return StatusCode(500, response);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("GuardaRelacionUsuarioPlanta", Name = "GuardaRelacionUsuarioPlanta")]
+        public ActionResult<Boolean> GuardaRelacionUsuarioPlanta(List<CrearUsuarioPlantaDto> item)
+        {
+            var response = new ApiResponse<Boolean>();
+
+            try
+            {
+                if (item.Count > 0)
+                {
+                    _usuarioPlantaRepository.DeleteAllPlantasByUsuario(item[0].UsuarioId);
+                    response.Result = _usuarioPlantaRepository.SaveAllPlantasBUsuario(_mapper.Map<List<UsuarioPlantum>>(item));
+                    response.Message = "Se guardaron correctamente los datos";
+                }
+                else
+                {
+                    response.Result = true;
+                    response.Message = "Sin datos guardados";
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                response.Result = false;
                 response.Success = false;
                 response.Message = ex.ToString();
                 return StatusCode(500, response);

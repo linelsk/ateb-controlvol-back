@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using biz.ateb.Entities;
-
 namespace dal.ateb.DBContext;
 
 public partial class controlvolContext : DbContext
@@ -3534,6 +3533,11 @@ public partial class controlvolContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("plantaId");
+
+            entity.HasOne(d => d.Planta).WithMany(p => p.UsuarioPlanta)
+                .HasForeignKey(d => d.PlantaId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_UsuarioPlanta_Planta");
         });
 
         modelBuilder.Entity<VersionControlVolumetrico>(entity =>

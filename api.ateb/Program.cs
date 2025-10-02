@@ -9,6 +9,7 @@ using biz.ateb.Repository.Perfiles;
 using biz.ateb.Repository.Planta;
 using biz.ateb.Repository.Proveedor;
 using biz.ateb.Repository.Usuarios;
+using biz.ateb.Repository.UsuariosPlantas;
 using dal.ateb.DBContext;
 using dal.ateb.Repository.Acciones;
 using dal.ateb.Repository.Authentication;
@@ -20,6 +21,7 @@ using dal.ateb.Repository.PerfilesAcciones;
 using dal.ateb.Repository.PerfilesEmpresas;
 using dal.ateb.Repository.Plantas;
 using dal.ateb.Repository.Proveedores;
+using dal.ateb.Repository.UsuariosPlantas;
 using dal.flexform.rarp.Repository.Usuarios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
@@ -110,6 +112,8 @@ builder.Services.AddTransient<IPerfilRepository, PerfilesRepository>();
 builder.Services.AddTransient<IPerfilEmpresaRepository, PerfilesEmpresasRepository>();
 builder.Services.AddTransient<IAccionRepository, AccionesRepository>();
 builder.Services.AddTransient<IPerfilAccionesRepository, PerfilesAccionesRepository>();
+
+builder.Services.AddTransient<IUsuarioPlantaRepository, UsuarioPlantaRepository>();
 #endregion
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>

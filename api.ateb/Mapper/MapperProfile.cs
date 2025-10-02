@@ -27,21 +27,32 @@ namespace api.main.tecnicah.Mapper
             CreateMap<HistoryPass, HistoryPassDto>().ReverseMap();
             CreateMap<Perfile, PerfileDto>().ReverseMap();
             CreateMap<CrearUsuarioDto, Usuario>().ReverseMap();
+            CreateMap<CrearUsuarioPlantaDto, UsuarioPlantum>().ReverseMap();
+            CreateMap<UsuarioPlantum, CrearUsuarioPlantaDto>().ReverseMap();
+            CreateMap<Usuario, GetUsuarioDto>().ReverseMap();
 
+            #endregion
+            #region Empresas
             CreateMap<Empresa, ListaEmpresasDto>().ReverseMap();
             CreateMap<Plantum, ListaPlantaDto>().ReverseMap();
             CreateMap<CrearEmpresaPlantaDto, EmpresaPlantum>().ReverseMap();
             CreateMap<ListaProveedoresDto, Proveedore>().ReverseMap();
             CreateMap<CrearEmpresaProveedorDto, EmpresaProveedor>().ReverseMap();
             CreateMap<CrearEmpresaDto, Empresa>().ReverseMap();
+            CreateMap<Empresa, CrearEmpresaDto>().ReverseMap();
 
+            #endregion
+
+            #region Perfiles
             CreateMap<ListaPerfilesDto, Perfile>().ReverseMap();
             CreateMap<PerfilEmpresa, CrearPerfilEmpresaDto>().ReverseMap();
             CreateMap<CrearPerfilDto, Perfile>().ReverseMap();
             CreateMap<ListaAccionDto, Accione>().ReverseMap();
             CreateMap<CrearPerfilAccionDto, PerfilAccion>().ReverseMap();
-
             #endregion
+
+            
+
         }
     }
 }

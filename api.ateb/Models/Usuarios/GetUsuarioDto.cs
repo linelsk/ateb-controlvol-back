@@ -1,8 +1,6 @@
-﻿using biz.ateb.Entities;
-
-namespace api.flexiform.rarp.Models.Usuarios
+﻿namespace api.ateb.Models.Usuarios
 {
-    public class UsuarioDto
+    public class GetUsuarioDto
     {
         public string UsuarioId { get; set; }
 
@@ -19,8 +17,5 @@ namespace api.flexiform.rarp.Models.Usuarios
         public bool PrimeraVez { get; set; }
 
         public DateOnly UpdatePassword { get; set; }
-
-        public virtual Perfile Perfil { get; set; }
-
     }
 }

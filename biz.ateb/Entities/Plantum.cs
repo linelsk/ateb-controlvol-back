@@ -106,4 +106,6 @@ public partial class Plantum
     public virtual ICollection<RecepcionesMensuale> RecepcionesMensuales { get; set; } = new List<RecepcionesMensuale>();
 
     public virtual ICollection<Tanque> Tanques { get; set; } = new List<Tanque>();
+
+    public virtual ICollection<UsuarioPlantum> UsuarioPlanta { get; set; } = new List<UsuarioPlantum>();
 }

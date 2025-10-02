@@ -10,8 +10,8 @@ namespace biz.ateb.Repository.Empresa
 {
     public interface IEmpresaPlantaRepository : IGenericRepository<biz.ateb.Entities.EmpresaPlantum>
     {
-        List<EmpresaPlantum> GetEmpresaPlantasByEmpresa(string empresaId);
-        void DeleteAllPlantasByEmpresa(string empresaId);
-        Boolean SaveAllPlantasByEmpresa(List<EmpresaPlantum> listaPlantas);
+            List<EmpresaPlantum> GetEmpresaPlantasByEmpresa(string empresaId);
+            void DeleteAllPlantasByEmpresa(string empresaId);
+            Boolean SaveAllPlantasByEmpresa(List<EmpresaPlantum> listaPlantas);
     }
 }

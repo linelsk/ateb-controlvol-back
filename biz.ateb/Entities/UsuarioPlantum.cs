@@ -10,4 +10,6 @@ public partial class UsuarioPlantum
     public string UsuarioId { get; set; }
 
     public string PlantaId { get; set; }
+
+    public virtual Plantum Planta { get; set; }
 }

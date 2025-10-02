@@ -97,6 +97,26 @@ namespace api.ateb.Controllers
             return StatusCode(201, response);
         }
 
+        [HttpGet("GetPerfilByPerfil", Name = "GetPerfilByPerfil")]
+        public ActionResult<ApiResponse<CrearPerfilDto>> GetPerfilByPerfil(long perfilId)
+        {
+            var response = new ApiResponse<CrearPerfilDto>();
+
+            try
+            {
+                response.Result = _mapper.Map<CrearPerfilDto>(_perfilRepository.FindBy(x => x.PerfilId == perfilId));
+                response.Success = true;
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.ToString();
+                return StatusCode(500, response);
+            }
+
+            return Ok(response);
+        }
+
         [HttpGet("GetAllPerfiles", Name = "GetAllPerfiles")]
         public ActionResult<ApiResponse<List<ListaPerfilesDto>>> GetAllPerfiles()
         {

@@ -101,6 +101,26 @@ namespace api.ateb.Controllers
             return StatusCode(201, response);
         }
 
+        [HttpGet("GetEmpresaByEmpresa", Name = "GetEmpresaByEmpresa")]
+        public ActionResult<ApiResponse<CrearEmpresaDto>> GetEmpresaByEmpresa(string empresaId)
+        {
+            var response = new ApiResponse<CrearEmpresaDto>();
+
+            try
+            {
+                response.Result = _mapper.Map<CrearEmpresaDto>(_empresaRepository.FindBy( x => x.EmpresaId == empresaId));
+                response.Success = true;
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = ex.ToString();
+                return StatusCode(500, response);
+            }
+
+            return Ok(response);
+        }
+
         [HttpGet("GetAllEmpresas", Name = "GetAllEmpresas")]
         public ActionResult<ApiResponse<List<ListaEmpresasDto>>> GetAllEmpresas()
         {
