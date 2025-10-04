@@ -85,7 +85,7 @@ namespace api.ateb.Controllers
 
                 var empresa = _mapper.Map<Empresa>(item);
                 empresa.VersionCtrVol = "1.0";
-
+                empresa.FechaCreacion = DateTime.Now;
                 var clienteCreado = _empresaRepository.Update(empresa, empresa.EmpresaId);
                 response.Message = "Empresa actualizada correctamente";
                 response.Result = _mapper.Map<CrearEmpresaDto>(clienteCreado);
@@ -102,13 +102,13 @@ namespace api.ateb.Controllers
         }
 
         [HttpGet("GetEmpresaByEmpresa", Name = "GetEmpresaByEmpresa")]
-        public ActionResult<ApiResponse<CrearEmpresaDto>> GetEmpresaByEmpresa(string empresaId)
+        public ActionResult<ApiResponse<ListaEmpresasDto>> GetEmpresaByEmpresa(string empresaId)
         {
-            var response = new ApiResponse<CrearEmpresaDto>();
+            var response = new ApiResponse<ListaEmpresasDto>();
 
             try
             {
-                response.Result = _mapper.Map<CrearEmpresaDto>(_empresaRepository.FindBy( x => x.EmpresaId == empresaId));
+                response.Result = _mapper.Map<ListaEmpresasDto>(_empresaRepository.FindBy( x => x.EmpresaId == empresaId).FirstOrDefault());
                 response.Success = true;
             }
             catch (Exception ex)
@@ -128,7 +128,19 @@ namespace api.ateb.Controllers
 
             try
             {
-                response.Result = _mapper.Map<List<ListaEmpresasDto>>(_empresaRepository.GetEmpresas());
+                var data = _empresaRepository.GetEmpresas();
+                response.Result = data.Select(x => new ListaEmpresasDto
+                {
+                    EmpresaId = x.EmpresaId,
+                    RazonSocial = x.RazonSocial,
+                    Rfc = x.Rfc,
+                    RfcRepresentanteLegal = x.RfcRepresentanteLegal,
+                    FechaCreacion = x.FechaCreacion,
+                    VersionCtrVol = x.VersionCtrVol,
+                    Activa = x.Activa,
+                    listaPlantas = x.EmpresaPlanta.Select( u => u.PlantaId).ToList(),
+                    listaProveedores = x.EmpresaProveedors.Select( u => u.ProveedorId).ToList()
+                }).ToList();
                 response.Success = true;
             }
             catch (Exception ex)

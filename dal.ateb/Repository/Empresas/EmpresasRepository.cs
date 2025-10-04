@@ -4,6 +4,7 @@ using biz.ateb.Repository.Generic;
 using dal.ateb.DBContext;
 using dal.ateb.Repository.EmpresasPlantas;
 using dal.ateb.Repository.Generic;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,10 @@ namespace dal.ateb.Repository.Empresas
         }
         public List<Empresa> GetEmpresas()
         {
-            var usersList = _context.Empresas.Select(u => u).ToList();
+            var usersList = _context.Empresas
+                                .Include(x => x.EmpresaProveedors)
+                                .Include(x => x.EmpresaPlanta)
+                                .ToList();
 
             return usersList;
         }
