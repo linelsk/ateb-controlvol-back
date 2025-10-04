@@ -34,12 +34,12 @@ namespace api.main.tecnicah.Mapper
             #endregion
             #region Empresas
             CreateMap<Empresa, ListaEmpresasDto>().ReverseMap();
+            CreateMap<ListaEmpresasDto, Empresa>().ReverseMap();
             CreateMap<Plantum, ListaPlantaDto>().ReverseMap();
             CreateMap<CrearEmpresaPlantaDto, EmpresaPlantum>().ReverseMap();
             CreateMap<ListaProveedoresDto, Proveedore>().ReverseMap();
             CreateMap<CrearEmpresaProveedorDto, EmpresaProveedor>().ReverseMap();
             CreateMap<CrearEmpresaDto, Empresa>().ReverseMap();
-            CreateMap<Empresa, CrearEmpresaDto>().ReverseMap();
 
             #endregion
 
