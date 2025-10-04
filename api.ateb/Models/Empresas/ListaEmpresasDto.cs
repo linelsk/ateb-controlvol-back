@@ -1,4 +1,6 @@
-﻿namespace api.ateb.Models.Empresas
+﻿using biz.ateb.Entities;
+
+namespace api.ateb.Models.Empresas
 {
     public class ListaEmpresasDto
     {
@@ -15,5 +17,8 @@
         public string VersionCtrVol { get; set; }
 
         public bool Activa { get; set; }
+        public List<string> listaPlantas{ get; set; } = new List<string>();
+
+        public List<string> listaProveedores { get; set; } = new List<string>();
     }
 }

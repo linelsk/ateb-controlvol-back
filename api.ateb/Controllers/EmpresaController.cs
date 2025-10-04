@@ -128,7 +128,19 @@ namespace api.ateb.Controllers
 
             try
             {
-                response.Result = _mapper.Map<List<ListaEmpresasDto>>(_empresaRepository.GetEmpresas());
+                var data = _empresaRepository.GetEmpresas();
+                response.Result = data.Select(x => new ListaEmpresasDto
+                {
+                    EmpresaId = x.EmpresaId,
+                    RazonSocial = x.RazonSocial,
+                    Rfc = x.Rfc,
+                    RfcRepresentanteLegal = x.RfcRepresentanteLegal,
+                    FechaCreacion = x.FechaCreacion,
+                    VersionCtrVol = x.VersionCtrVol,
+                    Activa = x.Activa,
+                    listaPlantas = x.EmpresaPlanta.Select( u => u.PlantaId).ToList(),
+                    listaProveedores = x.EmpresaProveedors.Select( u => u.ProveedorId).ToList()
+                }).ToList();
                 response.Success = true;
             }
             catch (Exception ex)
