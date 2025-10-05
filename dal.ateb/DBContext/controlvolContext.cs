@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using biz.ateb.Entities;
+
 namespace dal.ateb.DBContext;
 
 public partial class controlvolContext : DbContext
@@ -410,7 +411,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<CTipoDeRegistro>(entity =>
         {
             entity.HasKey(e => new { e.Id, e.TipoRegistro })
-                .HasName("PK__c_TipoDe__04F2582EAB3898CB")
+                .HasName("PK__c_TipoDe__04F2582E825E7B0D")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.ToTable("c_TipoDeRegistro");
@@ -475,7 +476,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<CaracterPermiso>(entity =>
         {
             entity.HasKey(e => new { e.EmpresaId, e.PlantaId, e.NumPermiso })
-                .HasName("PK__Caracter__D56C6E762BF1C6CE")
+                .HasName("PK__Caracter__D56C6E768F52B595")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.Property(e => e.EmpresaId)
@@ -495,7 +496,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<CaracterPermisosAdjunto>(entity =>
         {
             entity.HasKey(e => new { e.Id, e.NumPermiso })
-                .HasName("PK__Caracter__C84BC82159D4CFF4")
+                .HasName("PK__Caracter__C84BC8210741A674")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.Property(e => e.Id).HasColumnName("id");
@@ -1126,7 +1127,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<DictamenDiario>(entity =>
         {
             entity.HasKey(e => new { e.EmpresaId, e.PlantaId, e.NumeroFolioDictamen })
-                .HasName("PK__Dictamen__54310A6C987AC725")
+                .HasName("PK__Dictamen__54310A6C402F2FF6")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.ToTable("DictamenDiario");
@@ -1554,7 +1555,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<DocumentoDiarioDispenEntrega1>(entity =>
         {
             entity.HasKey(e => new { e.EmpresaId, e.PlantaId, e.NoDocumento, e.Periodo, e.Consecutivo, e.IdentificadorManguera })
-                .HasName("PK__Document__5AFA8D184D3E1AB1")
+                .HasName("PK__Document__5AFA8D18D2AD749C")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.ToTable("DocumentoDiarioDispenEntregas");
@@ -3408,7 +3409,7 @@ public partial class controlvolContext : DbContext
         modelBuilder.Entity<TipoDocumento>(entity =>
         {
             entity.HasKey(e => e.TipoDocumento1)
-                .HasName("PK__TipoDocu__8F9AD5174BDD5268")
+                .HasName("PK__TipoDocu__8F9AD5179EEC6966")
                 .HasAnnotation("SqlServer:FillFactor", 100);
 
             entity.ToTable("TipoDocumento");
