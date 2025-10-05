@@ -1,4 +1,5 @@
 ﻿using api.ateb.Models.ApiResponse;
+using api.ateb.Models.Empresas;
 using api.ateb.Models.Perfiles;
 using api.ateb.Models.Usuarios;
 using api.flexiform.rarp.Models.Usuarios;
@@ -9,6 +10,7 @@ using biz.ateb.Repository.UsuariosPlantas;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace api.ateb.Controllers
 {
@@ -31,13 +33,26 @@ namespace api.ateb.Controllers
 
         
         [HttpGet("GetAllUsers", Name = "GetAllUsers")]
-        public ActionResult<ApiResponse<List<UsuarioDto>>> GetAllUsers()
+        public ActionResult<ApiResponse<List<ListaUsuarioPlanta>>> GetAllUsers()
         {
-            var response = new ApiResponse<List<UsuarioDto>>();
+            var response = new ApiResponse<List<ListaUsuarioPlanta>>();
 
             try
             {
-                response.Result = _mapper.Map<List<UsuarioDto>>(_usuarioRepository.GetAllIncluding(x => x.HistoryPasses));
+                var data = _mapper.Map<List<UsuarioDto>>(_usuarioRepository.getUsers());
+                response.Result = data.Select(x => new ListaUsuarioPlanta
+                {
+                    Activo = x.Activo,
+                    Correo = x.Correo,
+                    Nombre = x.Nombre,
+                    Password = x.Password,
+                    PerfilId = x.PerfilId,
+                    PrimeraVez = x.PrimeraVez,
+                    UpdatePassword = x.UpdatePassword,
+                    UsuarioId = x.UsuarioId,
+                    PerfilDescripcion = x.Perfil.Descripcion,
+                    ListaPlantas = _usuarioPlantaRepository.ListaPlantasByUsuario(x.UsuarioId).ToList(),
+                }).ToList();
                 response.Success = true;
             }
             catch (Exception ex)
@@ -100,10 +115,10 @@ namespace api.ateb.Controllers
 
             try
             {
-                if (_usuarioRepository.Exists(x => x.Correo == item.Correo))
+                if (_usuarioRepository.Exists(x => x.Correo == item.Correo || x.UsuarioId == item.UsuarioId))
                 {
                     response.Success = false;
-                    response.Message = "Ya existe un cliente con el mismo email.";
+                    response.Message = "Ya existe un usuario con el mismo email o el mismo ID";
                     response.Result = null;
                     return StatusCode(201, response);
                 }
@@ -136,8 +151,7 @@ namespace api.ateb.Controllers
             {
 
                 var usuario = _mapper.Map<Usuario>(item);
-                usuario.UpdatePassword = DateOnly.FromDateTime(DateTime.Now);
-                var usuarioActualizado = _usuarioRepository.Update(usuario, item.UsuarioId);
+                var usuarioActualizado = _usuarioRepository.Actualiza(usuario);
                 response.Result = _mapper.Map<CrearUsuarioDto>(usuarioActualizado);
 
             }
@@ -203,9 +217,9 @@ namespace api.ateb.Controllers
         }
 
         [HttpPost("GuardaRelacionUsuarioPlanta", Name = "GuardaRelacionUsuarioPlanta")]
-        public ActionResult<Boolean> GuardaRelacionUsuarioPlanta(List<CrearUsuarioPlantaDto> item)
+        public ActionResult<System.Boolean> GuardaRelacionUsuarioPlanta(List<CrearUsuarioPlantaDto> item)
         {
-            var response = new ApiResponse<Boolean>();
+            var response = new ApiResponse<System.Boolean>();
 
             try
             {

@@ -25,6 +25,15 @@ namespace dal.ateb.Repository.UsuariosPlantas
                                 .ToList();
             return plantaEmpresaLista;
         }
+
+        public List<string> ListaPlantasByUsuario(string usuarioID)
+        {
+            var plantaEmpresaLista = _context.UsuarioPlanta
+                                .Where(x => x.UsuarioId == usuarioID)
+                                .Select(x => x.PlantaId)
+                                .ToList();
+            return plantaEmpresaLista;
+        }
         public void DeleteAllPlantasByUsuario(string usuarioID)
         {
             var plantasToDelete = _context.UsuarioPlanta.Where(x => x.UsuarioId == usuarioID).ToList();

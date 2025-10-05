@@ -13,5 +13,6 @@ namespace biz.ateb.Repository.UsuariosPlantas
         List<UsuarioPlantum> GetPlantasByUsuario(string usuarioID);
         void DeleteAllPlantasByUsuario(string usuarioID);
         Boolean SaveAllPlantasBUsuario(List<UsuarioPlantum> listaPlantas);
+        List<string> ListaPlantasByUsuario(string usuarioID);
     }
 }
