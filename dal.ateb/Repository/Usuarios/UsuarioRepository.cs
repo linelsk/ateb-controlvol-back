@@ -60,5 +60,25 @@ namespace dal.flexform.rarp.Repository.Usuarios
             }
 
         }
+        public biz.ateb.Entities.Usuario ActualizaPassword(biz.ateb.Entities.Usuario user)
+        {
+            var consulta = _context.Usuarios.Where(x => x.UsuarioId == user.UsuarioId).Select(u => u).FirstOrDefault();
+
+            if (consulta != null)
+            {
+                if (user.Password != null && user.Password != "")
+                {
+                    consulta.Password = HashPassword(consulta.Password);
+                    consulta.UpdatePassword = DateOnly.FromDateTime(DateTime.Now);
+                }
+                _context.SaveChanges();
+                return consulta;
+            }
+            else
+            {
+                return null;
+            }
+
+        }
     }
 }

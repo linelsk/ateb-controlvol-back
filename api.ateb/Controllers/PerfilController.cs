@@ -2,6 +2,8 @@
 using api.ateb.Models.ApiResponse;
 using api.ateb.Models.Empresas;
 using api.ateb.Models.Perfiles;
+using api.ateb.Models.Usuarios;
+using api.flexiform.rarp.Models.Usuarios;
 using AutoMapper;
 using biz.ateb.Entities;
 using biz.ateb.Repository.Acciones;
@@ -96,6 +98,7 @@ namespace api.ateb.Controllers
 
             return StatusCode(201, response);
         }
+        
 
         [HttpGet("GetPerfilByPerfil", Name = "GetPerfilByPerfil")]
         public ActionResult<ApiResponse<CrearPerfilDto>> GetPerfilByPerfil(long perfilId)
@@ -124,7 +127,15 @@ namespace api.ateb.Controllers
 
             try
             {
-                response.Result = _mapper.Map<List<ListaPerfilesDto>>(_perfilRepository.GetPerfiles());
+                var data = _mapper.Map<List<ListaPerfilesDto>>(_perfilRepository.GetPerfiles());
+                response.Result = data.Select(x => new ListaPerfilesDto
+                {
+                    Descripcion = x.Descripcion,
+                    Perfil = x.Perfil,
+                    PerfilId = x.PerfilId,
+                    ListaAcciones = _perfilAccionRepository.GetPerfilAccionesByPerfil(x.PerfilId).Select(u=>u.CodAccion).ToList(),
+                    ListaEmpresas = _perfilEmpresaRepository.GetPerfilEmpresaByPerfil(x.PerfilId).Select(u => u.EmpresaId).ToList(),
+                }).ToList();
                 response.Success = true;
             }
             catch (Exception ex)

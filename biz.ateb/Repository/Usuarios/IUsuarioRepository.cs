@@ -13,5 +13,6 @@ namespace biz.ateb.Repository.Usuarios
         List<Usuario> getUsers();
         string HashPassword(string password);
         Usuario Actualiza(biz.ateb.Entities.Usuario user);
+        Usuario ActualizaPassword(biz.ateb.Entities.Usuario user);
     }
 }

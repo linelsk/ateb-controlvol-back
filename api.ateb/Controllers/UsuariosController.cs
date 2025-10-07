@@ -5,6 +5,7 @@ using api.ateb.Models.Usuarios;
 using api.flexiform.rarp.Models.Usuarios;
 using AutoMapper;
 using biz.ateb.Entities;
+using biz.ateb.Repository.Perfiles;
 using biz.ateb.Repository.Usuarios;
 using biz.ateb.Repository.UsuariosPlantas;
 using Microsoft.AspNetCore.Authorization;
@@ -154,6 +155,38 @@ namespace api.ateb.Controllers
                 var usuarioActualizado = _usuarioRepository.Actualiza(usuario);
                 response.Result = _mapper.Map<CrearUsuarioDto>(usuarioActualizado);
 
+            }
+            catch (Exception ex)
+            {
+                response.Result = null;
+                response.Success = false;
+                response.Message = ex.ToString();
+                return StatusCode(500, response);
+            }
+
+            return StatusCode(201, response);
+        }
+
+        [HttpPost("ActualizarPassword", Name = "ActualizarPassword")]
+        public ActionResult<ApiResponse<CrearUsuarioDto>> ActualizarPassword(CrearUsuarioDto item)
+        {
+            var response = new ApiResponse<CrearUsuarioDto>();
+
+            try
+            {
+                if (!_usuarioRepository.Exists(x => x.UsuarioId == item.UsuarioId))
+                {
+                    response.Success = false;
+                    response.Message = "No existe el usuario que intentas actualizar";
+                    response.Result = null;
+                    return StatusCode(201, response);
+                }
+
+                var perfil = _mapper.Map<Usuario>(item);
+
+                var clienteCreado = _usuarioRepository.ActualizaPassword(perfil);
+                response.Message = "PErfil actualizado correctamente";
+                response.Result = _mapper.Map<CrearUsuarioDto>(clienteCreado);
             }
             catch (Exception ex)
             {
